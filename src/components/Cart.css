@@ -1,0 +1,24 @@
+.cart {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cartItem {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.item-tite-price--container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.itemThumbnail {
+  width: 80px;
+  height: 80px;
+}
